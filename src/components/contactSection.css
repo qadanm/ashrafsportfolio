@@ -1,0 +1,128 @@
+/* Contact Section */
+#contact {
+  background: linear-gradient(to bottom right, #f7f7f7, #f6e4ff);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#contact h2 {
+  color: #343a40;
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+
+#contact p {
+  font-size: 1.5rem;
+  line-height: 2rem;
+  margin-bottom: 3rem;
+}
+
+#contact a {
+  color: #6c757d;
+  border-radius: 2rem;
+}
+
+.contact-form-btn {
+  color: #ffffff !important;
+  font-size: 1.02rem;
+  padding: 0.75rem 1.5rem;
+  border-radius: 2rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+#contact a:hover {
+  color: #343a40;
+}
+#contact a:hover .linkedInIcon {
+  color: #089cf5;
+  background-color: #212529;
+}
+#contact a:hover .phoneIcon {
+  color: #22a335;
+  background-color: #212529;
+}
+#contact a:hover .emailIcon {
+  color: #f82b2b;
+  background-color: #212529;
+}
+
+.contact-icon {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-color: #343a40;
+  color: #fff;
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+  transition: 0.3s;
+}
+
+.contact-text {
+  text-align: center;
+  font-weight: 700;
+}
+
+.linkedInIcon:hover {
+  color: #089cf5;
+  background-color: #212529;
+}
+.phoneIcon:hover {
+  color: #22a335;
+  background-color: #212529;
+}
+.emailIcon:hover {
+  color: #f82b2b;
+  background-color: #212529;
+}
+
+.contact-icon svg {
+  margin-top: 0.25rem;
+}
+
+.contact-icons {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 3rem;
+}
+
+.contact-btn {
+  background-color: #343a40;
+  border-color: #343a40;
+  font-size: 1.5rem;
+  padding: 1.05rem;
+}
+
+.contact-btn:hover {
+  background-color: #212529;
+  border-color: #212529;
+}
+
+@media (max-width: 767px) {
+  #contact h2 {
+    font-size: 2rem;
+  }
+
+  #contact p {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+  }
+
+  .contact-icon {
+    width: 60px;
+    height: 60px;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+
+  .contact-icons {
+    flex-direction: column;
+  }
+
+  .contact-btn {
+    font-size: 1.25rem;
+    padding: 1rem 2rem;
+  }
+}

@@ -1,0 +1,36 @@
+.footer-title {
+  color: #e3caea;
+  text-transform: uppercase;
+}
+
+.footer-text {
+  color: #bbb;
+}
+
+.footer-links li a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.2s ease-in-out;
+}
+
+.footer-links li a:hover {
+  color: #e3caea;
+}
+
+.footer-contact li a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.2s ease-in-out;
+}
+
+.footer-contact li a:hover {
+  color: #e3caea;
+}
+
+.footer-divider {
+  border-top: 1px solid #e3caea;
+}
+
+.footer-rights {
+  margin: 0;
+}
