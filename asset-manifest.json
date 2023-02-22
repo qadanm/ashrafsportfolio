@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/ashrafsportfolio/static/css/main.2d776b2e.css",
-    "main.js": "/ashrafsportfolio/static/js/main.1d53a18f.js",
+    "main.js": "/ashrafsportfolio/static/js/main.44f3f3ee.js",
     "static/js/787.49c595aa.chunk.js": "/ashrafsportfolio/static/js/787.49c595aa.chunk.js",
     "static/media/dubai.mp4": "/ashrafsportfolio/static/media/dubai.c9253f9014836b9ed849.mp4",
     "static/media/legoland-dubai-entrance.jpg": "/ashrafsportfolio/static/media/legoland-dubai-entrance.e8abcb3a15f9f3374a0b.jpg",
@@ -14,11 +14,11 @@
     "static/media/logo.svg": "/ashrafsportfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/ashrafsportfolio/index.html",
     "main.2d776b2e.css.map": "/ashrafsportfolio/static/css/main.2d776b2e.css.map",
-    "main.1d53a18f.js.map": "/ashrafsportfolio/static/js/main.1d53a18f.js.map",
+    "main.44f3f3ee.js.map": "/ashrafsportfolio/static/js/main.44f3f3ee.js.map",
     "787.49c595aa.chunk.js.map": "/ashrafsportfolio/static/js/787.49c595aa.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2d776b2e.css",
-    "static/js/main.1d53a18f.js"
+    "static/js/main.44f3f3ee.js"
   ]
 }
