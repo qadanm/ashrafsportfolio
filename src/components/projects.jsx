@@ -78,7 +78,7 @@ const CardSection = () => {
   return (
     <div className="projects" id="projects">
         <section className="container">
-            <h2 className="text-center mb-5">From Concept to Creation: Explore My Project Portfolio</h2>
+            <h2 className="text-center mb-5" data-aos="zoom-in-left">From Concept to Creation: Explore My Project Portfolio</h2>
         <Row xs={1} md={2} className="g-4">
             {cardData.map((card, index) => (
             <Col key={index}>

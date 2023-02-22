@@ -1,9 +1,16 @@
 import React from "react";
+import { useEffect } from 'react';
 import { Container, Row, Col } from "react-bootstrap";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 import './footer.css'
 
 function PortfolioFooter() {
+    useEffect(() => {
+    AOS.init({
+    });
+  }, []);
   return (
     <footer className="bg-dark text-light py-3">
       <Container>

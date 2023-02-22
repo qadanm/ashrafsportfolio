@@ -1,13 +1,19 @@
 
 import { Container } from 'react-bootstrap'
-
+import { useEffect } from 'react';
 import DubaiVideo from "../assets/dubai.mp4";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 import './dubai.css';
 
 function Dubai() {
+    useEffect(() => {
+    AOS.init({
+    });
+  }, []);
   return (
-    <section className="dubai">
+    <section className="dubai"  data-aos="zoom-out" data-aos-duration="1200">
 <video autoPlay={true} loop muted>
          <source src={DubaiVideo} type="video/mp4" />
       </video>

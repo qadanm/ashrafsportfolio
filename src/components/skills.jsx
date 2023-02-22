@@ -1,4 +1,4 @@
-
+import { useEffect } from 'react';
 import { useState } from 'react';
 import { Container, Row, Col, Card, Button} from 'react-bootstrap';
 import Modal from 'react-bootstrap/Modal';
@@ -7,6 +7,8 @@ import ModalHeader from "react-bootstrap/ModalHeader";
 import ModalFooter from "react-bootstrap/ModalFooter";
 import ModalTitle from "react-bootstrap/ModalTitle";
 import ModalSubtitle from "react-bootstrap/ModalTitle";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 
 import "./skills.css";
@@ -98,13 +100,19 @@ const handleReadMore = (index) => {
 
    console.log(jobListings[0].title);
 
+     useEffect(() => {
+    AOS.init({
+    });
+  }, []);
+
   return (
     <section id="skills" className="py-5 skills-section">
       <Container>
-        <h2 className="text-center mb-5">My Professional Odyssey: A Timeline of My Career Journey</h2>
+        <h2 className="text-center mb-5" data-aos="zoom-out" data-aos-duration="1200">My Professional Odyssey: A Timeline of My Career Journey</h2>
         <Row>
           {jobListings.map((job, index) => (
             <Col md={6} lg={6} className="mb-4" key={index}>
+              <div  data-aos="zoom-in" data-aos-duration="1200">
               <Card className="h-100">
                 <Card.Body>
                   <Card.Title>{job.title}</Card.Title>
@@ -123,10 +131,11 @@ const handleReadMore = (index) => {
                   </Button>
                 </Card.Body>
               </Card>
+              </div>
             </Col>
           ))}
         </Row>
-<Modal show={showModal} onHide={handleClose} animation={false} style={{opacity:1}}>
+<Modal show={showModal} onHide={handleClose} animation={false} style={{opacity:1}} data-aos="zoom-in" data-aos-duration="1200">
   {selectedJob && (
     <>
       <ModalHeader closeButton>
@@ -156,6 +165,7 @@ const handleReadMore = (index) => {
             <Container>
         <Row>
           <Col md={4}>
+            <div data-aos="fade-up" data-aos-duration="1000">
             <div className="card mb-5 shadow-lg rounded-lg">
               <div className="card-header bg-primary text-white fw-bold">
                 Professional Skills
@@ -169,8 +179,10 @@ const handleReadMore = (index) => {
                 <li className="list-group-item">Blueprint Interpretation</li>
               </ul>
             </div>
+            </div>
           </Col>
           <Col md={4}>
+            <div data-aos="fade-up" data-aos-duration="1200">
             <div className="card mb-5 shadow-lg rounded-lg">
               <div className="card-header bg-success text-white fw-bold">
                 Fun
@@ -183,8 +195,10 @@ const handleReadMore = (index) => {
       <li className="list-group-item">Traveling to new countries and experiencing different cultures</li>
               </ul>
             </div>
+            </div>
           </Col>
           <Col md={4}>
+          <div data-aos="fade-up" data-aos-duration="1400">          
             <div className="card mb-5 shadow-lg rounded-lg">
               <div className="card-header bg-secondary text-white fw-bold">
                 Interests
@@ -198,6 +212,7 @@ const handleReadMore = (index) => {
                 <li className="list-group-item">Innovations in steel design software and tools</li>
               </ul>
             </div>
+            </div> 
           </Col>
           
         </Row>

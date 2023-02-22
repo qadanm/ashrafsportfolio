@@ -1,13 +1,15 @@
 import React, { useEffect, useState } from "react";
 import Card from 'react-bootstrap/Card';
 import { CardGroup, Col, Row } from 'react-bootstrap';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 import "./otherProjects.css"
 
 
 const ProjectCard = ({ name, location, description }) => {
   return (
-    <Card className="text-center otherProjectsCard">
+    <Card className="text-center otherProjectsCard" data-aos="zoom-in-up">
       <Card.Body className="otherProjectsCardBody">
         <Card.Title className="otherProjectsCardTitle">{name}</Card.Title>
         <Card.Subtitle className="mb-2 text-muted otherProjectsCardSubTitle">{location}</Card.Subtitle>
@@ -153,6 +155,11 @@ const OtherProjects = () => {
     setShowProjects(false);
   };
 
+    useEffect(() => {
+    AOS.init({
+    });
+  }, []);
+
   return (
     <div className="projects">
     <div className="container otherProjectsContainer">
@@ -164,7 +171,7 @@ const OtherProjects = () => {
         ))}
       </div>
       
-      <div className="mt-3 d-flex justify-content-center">
+      <div className="mt-3 d-flex justify-content-center" data-aos="fade-up">
         {!showProjects && (
           <button className="btn btn-primary viewMoreButton mx-auto" onClick={handleViewMore}>
             View More Projects
