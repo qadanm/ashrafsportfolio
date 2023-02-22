@@ -206,4 +206,6 @@ const handleReadMore = (index) => {
   );
 };
 
+// test
+
 export default SkillsSection;
