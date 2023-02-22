@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/ashrafsportfolio.git/static/css/main.2d776b2e.css",
+    "main.js": "/ashrafsportfolio.git/static/js/main.6acb3321.js",
+    "static/js/787.49c595aa.chunk.js": "/ashrafsportfolio.git/static/js/787.49c595aa.chunk.js",
+    "static/media/dubai.mp4": "/ashrafsportfolio.git/static/media/dubai.c9253f9014836b9ed849.mp4",
+    "static/media/legoland-dubai-entrance.jpg": "/ashrafsportfolio.git/static/media/legoland-dubai-entrance.e8abcb3a15f9f3374a0b.jpg",
+    "static/media/The-Cloud-Lounge.png": "/ashrafsportfolio.git/static/media/The-Cloud-Lounge.bab9c4167f0b71374e6b.png",
+    "static/media/alforsan.jpeg": "/ashrafsportfolio.git/static/media/alforsan.788f4283485d6a9c7152.jpeg",
+    "static/media/PARK_HEIGHTS_1-1620x832.jpg": "/ashrafsportfolio.git/static/media/PARK_HEIGHTS_1-1620x832.e983c50ae76ab03bab44.jpg",
+    "static/media/ADDRESS_DUBAI_OPERA.jpg": "/ashrafsportfolio.git/static/media/ADDRESS_DUBAI_OPERA.16e83434b3eb3fc43175.jpg",
+    "static/media/IMG_9776.JPG": "/ashrafsportfolio.git/static/media/IMG_9776.533fcd59e609efd60743.JPG",
+    "static/media/La-Perle.jpg": "/ashrafsportfolio.git/static/media/La-Perle.90350aaedf0d9650b4b5.jpg",
+    "static/media/logo.svg": "/ashrafsportfolio.git/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/ashrafsportfolio.git/index.html",
+    "main.2d776b2e.css.map": "/ashrafsportfolio.git/static/css/main.2d776b2e.css.map",
+    "main.6acb3321.js.map": "/ashrafsportfolio.git/static/js/main.6acb3321.js.map",
+    "787.49c595aa.chunk.js.map": "/ashrafsportfolio.git/static/js/787.49c595aa.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2d776b2e.css",
+    "static/js/main.6acb3321.js"
+  ]
+}
